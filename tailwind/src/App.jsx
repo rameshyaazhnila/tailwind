@@ -3,7 +3,9 @@ import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Videos from './components/Videos'
 import Review from './components/Review'
+import Fixed from './components/Fixed'
 import Footer from './components/Footer'
+
 
 
 
@@ -15,10 +17,18 @@ const App = () => {
           <Hero/>
           <Videos/>
         </div>
+        
         <div className='p-10'>
           <Review/>
-          <Footer/>
         </div>
+        <Footer/>
+        <div className='flex justify-end'>
+          <Fixed/>
+        </div>
+        
+        
+
+        
         
         
     </div>

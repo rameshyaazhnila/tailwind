@@ -14,4 +14,23 @@ body{
     top: 0;
     left: 0;
     box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.sign{
+    transform-style: preserve-3d;
+    transform: perspective(300px);
+}
+.sign:hover{
+    transform:perspective(300px) translateZ(10px) ;
+}
+.slide{
+    transform-style: preserve-3d;
+    transform: perspective(300px);
+    transition:0.1s all ;
+}
+.slide:hover{
+    transform: perspective(300px) scale(1.2);
 }

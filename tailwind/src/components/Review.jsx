@@ -39,6 +39,8 @@ const Review = () => {
                 <h1 className='text-3xl bg-gradient-to-r from-orange-500 to-blue-500 bg-clip-text text-transparent'>unicorn</h1>
                 <a href="#"><BabyIcon size={40} color="red"/></a>
                 <p className='text-white'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus repellat voluptatibus provident molestias ex quis quae. Minus dolorum impedit, alias aliquam debitis rerum. Sint rerum nesciunt cum molestias? In, obcaecati!</p>
+                
+                
             </div>
         </div>
         

@@ -1,15 +1,10 @@
 import React from 'react'
-import { InstagramIcon } from 'lucide-react'
-import { FacebookIcon } from 'lucide-react'
-
 
 const Footer = () => {
   return (
     <div>
-        <div>
-            <InstagramIcon/>
-            <FacebookIcon/>
-        </div>
+        <h1 className='text-white text-md md:text-xl text-center p-5'>@copyright web developed 2024 by <a href="www.google.com" className='lg:text-blue-500'>Ramesh</a></h1>
+        
     </div>
   )
 }
