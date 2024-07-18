@@ -9,7 +9,7 @@ const Nav = () => {
     }
   return (
     <>
-        <div className='sticky z-50 top-0 w-full py-3 border backdrop-blur-lg border-red-500 text-white flex justify-between items-center px-8'>
+        <div className='sticky z-20 top-0 w-full py-3 border backdrop-blur-lg border-red-500 text-white flex justify-between items-center px-8'>
             <h1 className='text-3xl'>Ramesh</h1>
             <div className="hidden md:flex justify-center md:text-lg lg:text-2xl space-x-6 text-3xl pl-5xl">
                 <a className='slide hover:text-blue-400'>Home</a>
@@ -23,8 +23,8 @@ const Nav = () => {
             </div>
             <div className='md:hidden mr-0 border border-orange-400 p-1 rounded' onClick={handleclick}>{bar? <X size={35}/>:<Menu size={35}/>}</div>
         </div>
-        <div className='text-yellow-200 sticky top-12 pt-2 bg-stone-700 flex flex-col w-full'>
-        {bar &&<ul className="md:hidden flex flex-col text-2xl items-center p-5 gap-3 ">
+        <div className='sticky z-10 top-12 h-50 text-yellow-200 pt-2 bg-gradient-to-b from-black to-green-500 flex flex-col w-full'>
+        {bar &&<ul className="md:hidden  flex flex-col text-2xl items-center p-5 gap-3 ">
                 <li className='hover:text-blue-200 slide'>home</li>
                 <li className='hover:text-blue-200 slide'>contact</li>
                 <li className='hover:text-blue-200 slide'>service</li>

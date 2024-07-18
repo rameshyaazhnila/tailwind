@@ -12,7 +12,9 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <div>
-        <Nav/>
+          <Nav/>
+        
+        
         <div className='text-center max-w-5xl mx-auto'>
           <Hero/>
           <Videos/>
